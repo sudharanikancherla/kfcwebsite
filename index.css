@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin:0% ;
+    
+}
+p{
+    border-top:0.5px solid black;
+    border-bottom:1px solid black;
+    text-align: center;
+
+} 
+.fa-location-dot{
+    color:red;
+}  
+
+.black{
+    border-radius:20px;
+    margin:1%;
+} 
+
+.navbar{
+
+    margin:5%;
+
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.nav-item .nav-link{
+    color:black !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-brand{
+    width:15%;
+}
+.fa-solid .fa-user{
+    margin:7%;
+    display: flex;
+
+}
+.d-flex{
+    justify-content: end;
+
+}
+h6{
+    font-weight: bold;
+    justify-content: right;
+    margin:1%;
+}
+.head{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',' Arial, sans-serif';
+    font-weight: bold;
+    margin-top:7%;
+    text-align: center;
+    
+}
+.red{
+    border-radius: 25px;
+    padding:1% 2% 1% 2%;
+    margin:1%;
+}
+.browse{
+    display:flex;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    margin:5%;
+}
+hr{
+    margin-top:2%;
+    border:1px solid rgb(185, 87, 87);
+    width:60%;
+}
+.card1{
+     border:0.5px solid black; 
+    background-color: whitesmoke;
+}
+.bgimg{
+    background-image: url(https://wallpapers.com/images/hd/kfc-pictures-e4dwtb7kfk15uk3l.jpg);
+    background-size: cover;
+    width:95vw;
+    height:50vh;
+    background-position:center;
+    opacity: 0.7;
+}
+.head3{
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top:6%;
+}
+.head2{
+    color:blue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom:2%;
+}
+
+    /* Menu */
+    .imageries{
+        width:100%;
+        aspect-ratio: 3/2;
+        object-fit:cover;
+    }
+    .card-img-top{
+        width:100%;
+        aspect-ratio: 3/2;
+        object-fit: cover;
+    }
+    .card title{
+        color:rgb(196, 67, 89);
+        font-size: 20px;
+    }
+    .card-group{
+        margin-bottom:3%;
+    }
+    .three{
+        border: 1px solid green;
+        color:rgb(224, 78, 102);
+        font-size: 15px;
+    }
+    
+    .io{
+        width:100%;
+        aspect-ratio: 3/2;
+        object-fit: cover;
+        
+    }
+
+/* deals */
+.national{
+    display:flex;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    margin:5%;
+}
+.btn-secondary{
+    justify-content: center;
+    border-radius: 20px;
+    margin: 5%;
+}
+.btn-secondary:hover{
+    color:blue;
+    background-color: goldenrod;
+}
+.card{
+    margin:1%;
+    padding:3%;
+    height: 100%;
+
+    /* border: 1px solid black; */
+    /* background-color: whitesmoke; */
+}
+.btn-white{
+    border-radius: 20px;
+    padding:1%;
+
+}
+.btn-white:hover{
+    color:white;
+    background-color: black;
+}
+/* payment */
+.formy{
+    background-color: whitesmoke;
+    flex-direction:column;
+     width:60%;
+     height: auto;
+    box-shadow: 1px 3px 3px grey;
+     padding:2%; 
+    margin-top: 10%;
+    margin-bottom: 1%;
+
+}
+.zero{
+    background-color:gray;
+    font-size: 20px;
+    color:white;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    padding-bottom:2%;
+}
+.zero:hover{
+    color:black;
+    background-color: white;
+}
+.fa-cc-mastercard{
+    background-color: rgb(26, 26, 134);
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+@media screen and (max-width:768px){
+
+    .ajust{
+        margin-top: -5%;
+    }
+}
+@media screen and (min-width:769px){
+    .adjust{
+        margin-top: 5%;
+    }
+}
+
+/* footer */
+.bgimg5{
+    background-color:black;
+    margin-top: 5%;
+    width:99vw;
+    height: fit-content;
+}
+.ftext{
+    color:white;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.last li{
+    color:white;
+    font-weight: lighter;
+    margin-top: 5%;
+    
+}
+.fa-square-twitter{
+    color:white;
+    font-size: 30px;
+    padding-left: 2%;
+}
+.fa-square-instagram{
+    color:red;
+    font-size: 30px;
+    padding-left: 2%;
+}
+.fa-facebook{
+    color:yellow;
+    font-size: 30px;
+    padding-left: 2%;
+}
+/* arrow */
+.fa-circle-arrow-up{
+    color:green;
+    font-size: 30px;
+    border:1px solid red;
+    background-color: gold;
+    float: right;
+    margin-top: -4%;
+    margin-right: 6%;
+}
+
+#payment{}
+/* signin */
+.skip{
+    border-radius: 20px;
+    margin:1%;
+    width:50%;
+    background-color: white;
+    color:black;
+}
+.sign{
+    flex-direction:column;
+         width:50%;
+         height: auto;
+         padding:2%; 
+        margin-top: 10%;
+        margin-bottom: 1%;
+    
+    }
+    .word{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10%;
+        
+    }
